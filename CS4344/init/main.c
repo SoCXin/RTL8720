@@ -1,10 +1,4 @@
-/*
- * Open Audio Player(OAP), implements helix MP3 decoder on STM32, RAM:48KB,ROM:64KB
- * 2014-07-12 Created by WUZUGUI.
- * E-Mail:wzgcsu@gmail.com
- * Hardware:http://arterltd.taobao.com/.
- */
- 
+
 #include <stdlib.h>
 #include <string.h> 
 #include "stm32f10x.h"

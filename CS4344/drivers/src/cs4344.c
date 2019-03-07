@@ -1,7 +1,4 @@
-/*
- * CS4344 driver for STM32.
- * 2014-07-13 Created by WUZUGUI.
- */
+
 #include "cs4344.h"
 
 void I2S_Configuration(void)

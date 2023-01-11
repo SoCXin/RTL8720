@@ -2,10 +2,10 @@
     "type":"SoC",
     "name":"RTL8720",
     "title": "realtek RTL8720 SoC",
-    "description":"realtek Real-M300 Wi-Fi/BLE SoC",
+    "description":"realtek Cortex-M4F Wi-Fi/BLE SoC",
     "Core": {
         "CoreNum": 1,
-        "Core":"Real-M300",
+        "Core":"Cortex-M4F",
         "Fmax":100,
         "DMIPS": 200,
         "CoreMark": 400
@@ -27,7 +27,7 @@
         "CDM": 500
     },
     "keywords": [
-        "Real-M300",
+        "Cortex-M4F",
         "realtek",
         "Wi-Fi","BLE","ADC","I2C","RTC","SPI","UART",
         "3.6V","1.8V"

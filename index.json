@@ -1,0 +1,35 @@
+{
+    "type":"SoC",
+    "name":"RTL8720",
+    "title": "realtek RTL8720 SoC",
+    "description":"realtek Real-M300 Wi-Fi/BLE SoC",
+    "Core": {
+        "CoreNum": 1,
+        "Core":"Real-M300",
+        "Fmax":100,
+        "DMIPS": 200,
+        "CoreMark": 400
+    },
+    "manufacturer": {
+        "vendor":"realtek",
+        "homepage":"https://www.realtek.com/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/RTL8720.git"
+    },
+    "version":"1.0.0",
+    "series":["RTL8720C","RTL8720D"],
+    "package":["QFN40"],
+    "peripheral": ["Wi-Fi","BLE","SDIO","UART","SPI","IIC"],
+    "ESD": {
+        "HBM": 2000,
+        "CDM": 500
+    },
+    "keywords": [
+        "Real-M300",
+        "realtek",
+        "Wi-Fi","BLE","ADC","I2C","RTC","SPI","UART",
+        "3.6V","1.8V"
+    ]
+}
